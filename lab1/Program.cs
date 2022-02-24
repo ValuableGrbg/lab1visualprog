@@ -21,8 +21,7 @@ namespace lab1
                 a[minIndex] += customers[i];
             }
             m = a.Max();
-            Console.WriteLine(m);
-            return 0;
+            return m;
         }
     }
     class Program
